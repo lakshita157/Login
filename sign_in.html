@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign_in.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>sign-in</title>
+</head>
+<body>
+    <div>
+    <header>
+        <h3>Sign in</h3>
+    </header>
+    <main>
+        <form action="sign_in.html" method="post" id="fro">
+            <table>
+                <tr><td><input type="text" id="name" placeholder="Enter Username">
+                <p id="message"></p></td></tr>
+
+                <tr><td><input type="password" id="password"  placeholder="Enter Password">
+                <p id="error"></p></td></tr>
+
+                <tr><td> 
+                <input type="submit" id="submit"value="Submit" onclick="myFun()">
+                </td></tr>
+            </table>
+        </form>
+    </main>
+    <footer>
+        <p>--------------- OR ---------------</p>
+        <p><a href="forgot_pass.html">Forgot your password?</a>
+        <br><br>
+        Not a member? <a href="sign_up.html">sign up</a></p>
+    </footer>
+    </div>
+    <script src="sign_in.js"></script>
+</body>
+</html>

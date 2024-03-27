@@ -1,0 +1,148 @@
+* {
+    text-align: center;
+}
+h3{
+    color: #2C4F63;
+    font-size: xx-large;
+    padding-bottom:15px;
+    font-family: 'Montserrat', sans-serif;
+}
+table{
+    text-align: center;
+    width: 100%;
+}
+input{
+    background-color:rgb(255, 255, 255, 0.3) ;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+}
+td{
+    font-size: large;
+    color: #2C4F63;
+    padding: 5px;
+}
+body{
+    padding:100px 400px;
+    background-image: url(blue\ mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+}
+div{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+#name{
+    width: 250px;
+    height: 30px;
+    border: solid #2C4F63;
+}
+#pass{
+    width: 250px;
+    height:30px;
+    border: solid #2C4F63;
+}
+#confpass{
+    width: 250px;
+    height:30px;
+    border: solid #2C4F63;
+}
+#dob{
+    width: 252px;
+    height:30px;
+    border: solid #2C4F63;
+}
+#email{
+    width: 250px;
+    height:30px;
+    border: solid #2C4F63;
+}
+#weight{
+    width: 245px;
+    height:30px;
+    border: solid #2C4F63;
+    padding-right:10px;
+}
+#height{
+    width: 245px;
+    height:30px;
+    border: solid #2C4F63;
+    padding-right:10px;
+}
+button{
+    background-color: rgb(255, 255, 255, 0.3);
+    width: 150px;
+    height:30px;
+    border: solid #2C4F63;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+}
+#submit{
+    width: 150px;
+    height:30px;
+    border: solid #2C4F63;
+    background-color:rgb(255, 255, 255, 0.3);
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+}
+select{
+    background-color: rgb(255, 255, 255, 0.3);
+    width: 260px;
+    height:40px;
+    border: solid #2C4F63;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+}
+footer{
+    font-size: medium;
+    color: #2C4F63;
+}
+#pagenumber{
+    color: #2C4F63;
+    text-align: top right;
+}
+a:link{
+    color:#2C4F63;
+}
+a:hover{
+    color:#1B2D39;
+    font-size:large;
+}
+#nameerror{
+    color: red;
+    font-size: small;
+}
+#dateerror{
+    color: red;
+    font-size: small;
+}
+#gendererror{
+    color: red;
+    font-size: small;
+}
+#weighterror{
+    color: red;
+    font-size: small;
+}
+#heighterror{
+    color: red;
+    font-size: small;
+}
+#goalerror{
+    color: red;
+    font-size: small;
+}
+#emailerror{
+    color: red;
+    font-size: small;
+}
+#passerror{
+    color: red;
+    font-size: small;
+}
+#error{
+    color: red;
+    font-size: small;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="forgot_pass.css">
+    <title>forgot password</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h3>Forgot Password</h3>
+        </header>
+        <main>
+            <form action="#" method="post" id="fro">
+                <table>
+                    <tr><td><input type="text" id="name" placeholder="Enter your username"> </td></tr>
+                    <tr><td><input type="email" id="email" placeholder="Enter E-mail"> </td></tr>
+                    <tr><td><p id="error"></p></td></tr>
+                    <tr><td><input type="button" id="seepass" value="Check Password" onclick="forgotpass()"></td></tr>
+                </table>
+            </form>
+        </main>
+        <footer>
+            <p>--------------- OR ---------------</p>
+            <p>Already have an account?<a href="sign_in.html">Sign in</a><br>
+            Don't have an account?<a href="sign_up.html">Sign up</a></p>
+        </footer>
+    </div>
+    <script src="forgot_pass.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+*{
+    text-align: center;
+}
+h3{
+    color:#2C4F63;
+    font-size: xx-large;
+    padding-bottom:15px;
+    font-family: 'Montserrat', sans-serif;
+}
+table{
+    text-align: center;
+    width: 100%;
+}
+input{
+    background-color:rgb(255, 255, 255, 0.3) ;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+    width: 250px;
+    height: 30px;
+    border: solid #2C4F63;
+}
+td{
+    font-size: x-large;
+    color: #2C4F63;
+    padding:5px;
+}
+body{
+    padding:100px 350px;
+    background-image: url(blue\ mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+}
+div{
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+#sendotp{
+    width: 150px;
+    height:30px;
+    border: solid #2C4F63;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+#seepass{
+    width: 150px;
+    height:30px;
+    border: solid #2C4F63;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+#error{
+    color: red;
+    font-size: small;
+}
+
+footer{
+    font-size: medium;
+    color:#2C4F63;
+}
+a:link{
+    color:grey;
+}
+a:hover{
+    color: #2C4F63;
+    font-size:large;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign_up.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>sign-up</title>
+</head>
+<body>
+    <div>
+    <header>
+        <h3>Sign up</h3>
+    </header>
+    <main>
+        <form action="registered.html" method="post" id="fro" onsubmit="return signup()">
+            <table>
+
+                <!-- USERNAME -->
+                <tr><td><input type="text" id="name" name="name" placeholder="Enter your username">
+                </td></tr>
+
+
+                <!-- DOB -->
+                <tr><td><label for="dob">Enter your birth day: </label></td></tr>
+                <tr><td><input type="date" id="dob" name="dob" value="Enter your birth date" >
+                </td></tr>
+
+
+
+                <!-- GENDER -->
+                <tr><td><select id="gender" name="Gender">
+                        <option value="">Choose your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                        <option value="prefer not to say">Prefer not to say</option>
+                    </select><br> 
+                    </td></tr>
+
+
+
+                <!-- E-MAIL -->
+                <tr><td><input type="email" id="email" name="email" placeholder="E-mail">
+                </td></tr>
+
+
+
+                <!-- PASSWORD -->
+                <tr><td><input type="password" id="pass" name="pass" value="" placeholder="Create a Password">
+                </td></tr>
+
+
+
+                <!-- CONFIRM PASSWORD -->
+                <tr><td><input type="password" id="confpass" name="confpass" value="" placeholder="Confirm Password">
+                <p id="error"></p></td></tr>
+
+
+                <tr><td><input type="submit" id="submit" value="Submit" onclick="signup()"> </td></tr>
+            </table>
+        </form>
+    </main>
+    <footer>
+        <p>--------------- OR ---------------</p>
+        <p>Already a member?<a href="sign_in.html">Sign in</a></p>
+    </footer>
+    
+</div>
+<script src="sign_up.js"></script>
+
+</body>
+</html>

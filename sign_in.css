@@ -1,0 +1,73 @@
+*{
+    text-align: center;
+}
+h3{
+    color:#2C4F63;
+    font-size: xx-large;
+    padding-bottom:5px;
+}
+table{
+    text-align: center;
+    width: 100%;
+}
+input{
+    background-color:rgb(255, 255, 255, 0.3) ;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+}
+td{
+    font-size: x-large;
+    color:#2C4F63;
+    padding:5px;
+}
+body{
+    padding: 100px 450px;
+    background-image: url(blue\ mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+}
+div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+#name{
+    width: 250px;
+    height: 30px;
+    border: solid #2C4F63;
+}
+#password{
+    width: 250px;
+    height:30px;
+    border: solid #2C4F63;
+    
+}
+#submit{
+    width: 150px;
+    height:30px;
+    border: solid #2C4F63;
+    background-color:rgb(255, 255, 255, 0.3);
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+}
+footer{
+    font-size: medium;
+    color:#2C4F63;
+}
+a:link{
+    color:#2C4F63;
+}
+a:hover{
+    color: #152630;
+    font-size:large;
+}
+#message{
+    font-size: small;
+    color: red;
+}
+#error{
+    font-size: small;
+    color: red;
+}
